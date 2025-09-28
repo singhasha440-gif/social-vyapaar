@@ -1,0 +1,15 @@
+    // .devcontainer/devcontainer.json
+    {
+      "image": "mcr.microsoft.com/devcontainers/php:8.2",
+      "features": {
+        "ghcr.io/devcontainers/features/apache:1": {}
+      },
+      "customizations": {
+        "vscode": {
+          "extensions": [
+            "bmewburn.vscode-intelephense-client",
+            "felixfbecker.php-debug"
+          ]
+        }
+      }
+    }
